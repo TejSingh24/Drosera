@@ -96,6 +96,10 @@ forge init -t drosera-network/trap-foundry-template
 curl -fsSL https://bun.sh/install | bash
 bun install
 ```
+
+* If shows error bun command not found : `PATH="/home/$(whoami)/.bun/bin:$PATH"` Run this command:-
+
+
 ```bash
 forge build
 ```
