@@ -154,6 +154,7 @@ whitelist = ["Operator_Address"]
 DROSERA_PRIVATE_KEY=xxx drosera apply
 ```
 * Replace `xxx` with your EVM wallet `privatekey`
+* This may show error caused by something CooldownTimeout. Wait for 15-20 Minutes for the cooldown to pass and than run this command again.
 
 Your Trap should be private now with your operator address whitelisted internally.
 
